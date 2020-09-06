@@ -1,0 +1,33 @@
+{
+  "name": "fast-counter",
+  "version": "0.0.0",
+  "description": "Fast Multi-Dimensional Counter of Array Values for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx prettier --write index.js test.js",
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/fast-counter.git"
+  },
+  "keywords": [
+    "count",
+    "counter",
+    "counts",
+    "pixel",
+    "values"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/fast-counter/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/fast-counter#readme",
+  "devDependencies": {
+    "ava": "^3.12.1"
+  },
+  "dependencies": {
+    "get-depth": "0.0.0"
+  }
+}
