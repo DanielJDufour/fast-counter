@@ -3,9 +3,14 @@
   "version": "0.0.0",
   "description": "Fast Multi-Dimensional Counter of Array Values for JavaScript",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
-    "format": "npx prettier --write index.js test.js",
-    "test": "ava --verbose"
+    "format": "npx prettier --trailing-comma=none --write index.js test.js",
+    "test": "node ./test.js"
   },
   "repository": {
     "type": "git",
@@ -24,10 +29,10 @@
     "url": "https://github.com/DanielJDufour/fast-counter/issues"
   },
   "homepage": "https://github.com/DanielJDufour/fast-counter#readme",
-  "devDependencies": {
-    "ava": "^3.12.1"
-  },
   "dependencies": {
     "get-depth": "0.0.0"
+  },
+  "devDependencies": {
+    "flug": "^2.3.1"
   }
 }
